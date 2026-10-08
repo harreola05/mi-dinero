@@ -1,12 +1,18 @@
 {
-  "name":"Mi Dinero · Asistente Semanal",
-  "short_name":"Mi Dinero",
-  "description":"Asistente personal para organizar nómina semanal, gastos, servicios, ahorro y metas.",
-  "start_url":"./index.html",
-  "scope":"./",
-  "display":"standalone",
-  "background_color":"#071522",
-  "theme_color":"#071522",
-  "lang":"es-MX",
-  "orientation":"portrait-primary"
+  "id": "/mi-dinero/",
+  "name": "Mi Dinero · Asistente Semanal",
+  "short_name": "Mi Dinero",
+  "description": "Asistente personal para organizar nómina semanal, gastos, servicios, ahorro y metas.",
+  "start_url": "/mi-dinero/",
+  "scope": "/mi-dinero/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#071522",
+  "theme_color": "#071522",
+  "lang": "es-MX",
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
 }
